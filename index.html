@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conservation Geography Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Introduction Page -->
+<div id="intro-container">
+    <h1>Conservation Geography Quiz</h1>
+    <p>Test your knowledge about conservation geography!</p>
+    <p><strong>Made by Bhavesh</strong></p>
+    <button onclick="startQuiz()">Start Quiz</button>
+</div>
+
+<!-- Quiz Page (hidden initially) -->
+<div id="quiz-container" style="display:none;">
+    <div id="quiz"></div>
+    <button id="next" onclick="nextQuestion()">Next</button>
+    <button id="submit" onclick="submitQuiz()" style="display:none;">Submit</button>
+</div>
+
+<!-- Result Page (hidden initially) -->
+<div id="result-container" style="display:none;">
+    <h2>Your Results</h2>
+    <p>Total Score: <span id="score"></span></p>
+    <p>Correct Answers: <span id="correct"></span></p>
+    <p>Wrong Answers: <span id="wrong"></span></p>
+
+    <div id="wrong-questions"></div>
+    <button onclick="restartQuiz()">Restart Quiz</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

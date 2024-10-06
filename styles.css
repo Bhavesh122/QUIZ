@@ -1,0 +1,70 @@
+/* Full height body for centering */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: url('background.png'); /* Replace with actual image URL */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Background stays fixed when scrolling */
+    font-family: Arial, sans-serif;
+}
+
+/* Center the quiz container */
+#quiz-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  /* Center the quiz vertically */
+    align-items: center;      /* Center the quiz horizontally */
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    max-width: 600px;
+    width: 100%;
+    height: 80vh;  /* Vertically center the content */
+    margin: 40px auto;  /* Space for scrolling */
+    text-align: center;
+}
+
+/* Result container will align to top-left */
+#result-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    max-width: 600px;
+    width: 100%;
+    text-align: left;  /* Align text to the left */
+    margin-top: 20px;  /* Start from the top */
+}
+
+/* Label and options alignment */
+label {
+    display: block;
+    text-align: left;  /* Keep options aligned to the left */
+    width: 100%;
+    margin: 10px 0;
+}
+
+/* Ensure the body can scroll properly */
+body {
+    min-height: 100vh;
+    overflow-y: auto;
+}
+
+/* Button styling */
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
