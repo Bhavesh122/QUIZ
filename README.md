@@ -9,7 +9,11 @@ Tech Stack:
 This quiz was developed using a modern web stack for a smooth and responsive user experience:
 
 HTML: Structuring the content and layout.
+
 CSS: Styling the quiz interface with a custom design and a beautiful background image.
+
 JavaScript: Handling quiz logic, such as loading questions, tracking scores, and showing results dynamically.
+
+
 
 Website: https://bhavesh122.github.io/QUIZ/
