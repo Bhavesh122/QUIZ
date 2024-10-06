@@ -1,4 +1,4 @@
-Welcome to the Conservation Geography Mock Quiz
+Welcome to the Conservation Geography Mock Quiz.
 This quiz is designed as a preparation tool for the NPTEL "Conservation Geography" exam, one of the renowned exams in the field of geography. Whether you are a student preparing for the exam or a professional looking to sharpen your knowledge, this quiz serves as an excellent practice resource. The questions in this quiz cover essential topics from the NPTEL syllabus, helping you assess your understanding and readiness for the exam.
 
 Key Features:
